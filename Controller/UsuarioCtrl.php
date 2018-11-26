@@ -33,7 +33,7 @@ class UsuarioCtrl{
         }    
         $dao = new UsuarioDAO();  
         $ret = $dao->verificarEmailExistente($vo->getEmail());        
-        if(count($ret) > 0){
+        if(count($ret) > 0 && $ret[0]['codigo'] !== $vo->getCodigo()){
             return Messages::EmailJaExiste;
         }        
         return $dao->alterarUsuario($vo);

@@ -5,11 +5,10 @@
         <group>
             <file>file:/C:/xampp/htdocs/control-service/Helpers/Utils.php</file>
             <file>file:/C:/xampp/htdocs/control-service/Admin/consultar_servico.php</file>
-            <file>file:/C:/xampp/htdocs/control-service/Admin/consultar_cliente.php</file>
-            <file>file:/C:/xampp/htdocs/control-service/Admin/alterar_cliente.php</file>
-            <file>file:/C:/xampp/htdocs/control-service/Controller/ServicoCtrl.php</file>
+            <file>file:/C:/xampp/htdocs/control-service/Admin/_menu.php</file>
+            <file>file:/C:/xampp/htdocs/control-service/DAO/ServicoDAO.php</file>
+            <file>file:/C:/xampp/htdocs/control-service/Admin/index.php</file>
             <file>file:/C:/xampp/htdocs/control-service/Admin/servicos_cliente.php</file>
-            <file>file:/C:/xampp/htdocs/control-service/Controller/UsuarioCtrl.php</file>
         </group>
     </open-files>
 </project-private>
