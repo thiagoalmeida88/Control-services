@@ -98,7 +98,7 @@ class ServicoDAO extends Conexao {
                 . 'from servico '
                 . 'inner join tiposervico on servico.CodTipo = tiposervico.Codigo '
                 . 'inner join usuario on servico.CodUsuario = usuario.Codigo '
-                . 'where dataservico between ? and ? order by servico.cadastro desc '; 
+                . 'where dataservico between ? and ? order by dataservico desc '; 
         $this->sql = $this->conexao->prepare($comando);                
         $this->sql->bindValue(1, $datainicial);
         $this->sql->bindValue(2, $datafinal);        
